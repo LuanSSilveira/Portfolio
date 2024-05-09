@@ -1,0 +1,79 @@
+body{
+    font-family: Trebuchet MS, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('imagens/Fundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 0 400px 0 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 100px;
+}
+
+nav a{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #4682B4;
+}
+
+span{
+    color: #4682B4;
+    
+}
+
+.main{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.main h4{
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.main h1{
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-family: Andale Mono, monospace;
+    margin: 20px 0 20px 0;
+    
+}
+
+.main h3{
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
